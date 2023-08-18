@@ -53,13 +53,20 @@ In addition to the `DATEDIFF` function, there are several other common time-rela
    SELECT GETDATE() AS CurrentDateTime;
    ```
 
+<br>
+
+
 2. **DATEADD**: Adds a specified number of date or time intervals to a given date.
 
    ```sql
    SELECT DATEADD(day, 7, '2023-08-18') AS NewDate;
    ```
 
+   <br>
+
 3. **DATEDIFF**: As mentioned earlier, calculates the difference between two dates or times.
+
+<br>
 
 4. **DATEPART**: Extracts a specific part (e.g., year, month, day) from a date or time.
 
@@ -68,6 +75,8 @@ In addition to the `DATEDIFF` function, there are several other common time-rela
    SELECT DATEPART(month, '2023-08-18') AS Month;
    ```
 
+<br>
+
 5. **CONVERT / CAST**: Used to convert between different date and time data types or formats.
 
    ```sql
@@ -75,11 +84,15 @@ In addition to the `DATEDIFF` function, there are several other common time-rela
    SELECT CAST('2023-08-18' AS DATETIME) AS DateValue;
    ```
 
+<br>
+
 6. **FORMAT**: Formats a date or time value as a string according to a specified format.
 
    ```sql
    SELECT FORMAT(GETDATE(), 'yyyy-MM-dd HH:mm:ss') AS FormattedDate;
    ```
+
+<br>
 
 7. **DATEPART**: Extracts a specific part (e.g., year, month, day) from a date or time.
 
@@ -88,11 +101,15 @@ In addition to the `DATEDIFF` function, there are several other common time-rela
    SELECT DATEPART(month, '2023-08-18') AS Month;
    ```
 
+<br>
+
 8. **DATEFROMPARTS**: Creates a date value from individual year, month, and day components.
 
    ```sql
    SELECT DATEFROMPARTS(2023, 8, 18) AS FullDate;
    ```
+
+<br>
 
 9. **DATEDIFF_BIG**: Similar to `DATEDIFF`, but returns a `BIGINT` result for larger date ranges.
 
@@ -100,10 +117,16 @@ In addition to the `DATEDIFF` function, there are several other common time-rela
    SELECT DATEDIFF_BIG(day, '2000-01-01', '9999-12-31') AS DaysDifference;
    ```
 
+<br>
+
 10. **SYSDATETIME()**: Returns the current date and time, including fractional seconds.
 
     ```sql
     SELECT SYSDATETIME() AS CurrentDateTime;
     ```
 
-These are just a few examples of the time-related functions available in SQL. The specific functions and their behavior can vary depending on the SQL database system you're using, so be sure to refer to the documentation for your particular database for detailed information.
+<br>
+
+These are just a few examples of the time-related functions available in SQL. 
+
+The specific functions and their behavior can vary depending on the SQL database system you're using, so be sure to refer to the documentation for your particular database for detailed information.
