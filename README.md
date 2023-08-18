@@ -1,6 +1,12 @@
 # SQL-notes
 
-### DATE FUNCTIONS
+# DATE FUNCTIONS
+
+<br>
+<br>
+<BR>
+
+**DATEDIFF**
 
 In Microsoft SQL Server (MS SQL), the `DATEDIFF` function is used to calculate the difference between two date or datetime values. The syntax for using the `DATEDIFF` function in MS SQL is as follows:
 
@@ -33,6 +39,9 @@ SELECT DATEDIFF(year, '2000-01-01', '2023-01-01') AS YearsDifference;
 
 Remember that the supported dateparts and the behavior of the `DATEDIFF` function can vary depending on the version of SQL Server you're using. Always consult the official Microsoft SQL Server documentation for the specific version you're working with to ensure accurate usage.
 
+<BR>
+<BR>
+<BR>
 
 In addition to the `DATEDIFF` function, there are several other common time-related functions available in SQL for working with dates and times. Here are some of the most frequently used time functions:
 
