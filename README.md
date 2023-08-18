@@ -27,6 +27,8 @@ SELECT DATEDIFF(day, '2023-01-01', '2023-01-15') AS DaysDifference;
 
 This query calculates the difference in days between January 1, 2023, and January 15, 2023.
 
+<br><br>
+
 Here are a few examples of other dateparts you can use with the `DATEDIFF` function in MS SQL:
 
 ```sql
