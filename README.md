@@ -27,7 +27,7 @@ SELECT DATEDIFF(day, '2023-01-01', '2023-01-15') AS DaysDifference;
 
 This query calculates the difference in days between January 1, 2023, and January 15, 2023.
 
-<br><br>
+<br>
 
 Here are a few examples of other dateparts you can use with the `DATEDIFF` function in MS SQL:
 
@@ -41,7 +41,6 @@ SELECT DATEDIFF(year, '2000-01-01', '2023-01-01') AS YearsDifference;
 
 Remember that the supported dateparts and the behavior of the `DATEDIFF` function can vary depending on the version of SQL Server you're using. Always consult the official Microsoft SQL Server documentation for the specific version you're working with to ensure accurate usage.
 
-<BR>
 <BR>
 <BR>
 
@@ -94,16 +93,8 @@ In addition to the `DATEDIFF` function, there are several other common time-rela
 
 <br>
 
-7. **DATEPART**: Extracts a specific part (e.g., year, month, day) from a date or time.
 
-   ```sql
-   SELECT DATEPART(year, '2023-08-18') AS Year;
-   SELECT DATEPART(month, '2023-08-18') AS Month;
-   ```
-
-<br>
-
-8. **DATEFROMPARTS**: Creates a date value from individual year, month, and day components.
+7. **DATEFROMPARTS**: Creates a date value from individual year, month, and day components.
 
    ```sql
    SELECT DATEFROMPARTS(2023, 8, 18) AS FullDate;
@@ -111,7 +102,7 @@ In addition to the `DATEDIFF` function, there are several other common time-rela
 
 <br>
 
-9. **DATEDIFF_BIG**: Similar to `DATEDIFF`, but returns a `BIGINT` result for larger date ranges.
+8. **DATEDIFF_BIG**: Similar to `DATEDIFF`, but returns a `BIGINT` result for larger date ranges.
 
    ```sql
    SELECT DATEDIFF_BIG(day, '2000-01-01', '9999-12-31') AS DaysDifference;
@@ -119,7 +110,7 @@ In addition to the `DATEDIFF` function, there are several other common time-rela
 
 <br>
 
-10. **SYSDATETIME()**: Returns the current date and time, including fractional seconds.
+9. **SYSDATETIME()**: Returns the current date and time, including fractional seconds.
 
     ```sql
     SELECT SYSDATETIME() AS CurrentDateTime;
