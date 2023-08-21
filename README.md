@@ -1,10 +1,21 @@
 # SQL-notes
 
+
+Ad-hoc Analysis
+
+
+
+
+
+<br>
+<br>
+<br>
+
 # DATE FUNCTIONS
 
 <br>
 <br>
-<BR>
+<br>
 
 **DATEDIFF**
 
